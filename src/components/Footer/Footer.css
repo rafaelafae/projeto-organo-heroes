@@ -9,14 +9,13 @@
 
 .footer .icons {
     display: flex;
-    justify-content: right;
-    margin-right: 140px;
-    margin-top: -125px;
+    justify-content: center;
+    margin-top: -118px;
 }
 
 .footer .icons .icons-img {
-    width: 64px;
-    height: 64px;
+    width: 55px;
+    height: 55px;
 }
 
 
