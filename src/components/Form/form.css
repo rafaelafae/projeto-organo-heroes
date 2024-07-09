@@ -1,0 +1,14 @@
+.form-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F19ED2;
+    color: #fff;
+}
+
+.form-box form {
+    max-width: 90%;
+    background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.31) 0%, rgba(170, 20, 240, 0.00) 100%);
+    border-radius: 20px;
+    padding: 36px 64px;
+}

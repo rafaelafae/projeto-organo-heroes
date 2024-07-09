@@ -1,0 +1,28 @@
+.dropdown-list {
+    width: 100%;
+    margin: 24px;
+}
+
+.dropdown-list label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.dropdown-list select {
+    color: #1679AB;
+    border: 0.811px solid rgba(185, 54, 245, 0.25);
+    font-size: 24px;
+    width: 89%;
+    box-sizing: 100%;
+    padding: 24px;
+}
+
+.dropdown-list option {
+    color: #1679AB;
+    border: 0.811px solid rgba(185, 54, 245, 0.25);
+    font-size: 24px;
+    width: 89%;
+    box-sizing: 100%;
+    padding: 24px;
+}

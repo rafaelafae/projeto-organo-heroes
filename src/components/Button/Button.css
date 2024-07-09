@@ -1,0 +1,15 @@
+.button-box {
+    background: linear-gradient(100deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 48px;
+    border: none;
+    cursor: pointer;
+    margin: 16px 24px;
+}
+
+.button-box:hover {
+    background: #534686;
+}
