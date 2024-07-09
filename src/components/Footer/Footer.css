@@ -1,0 +1,22 @@
+.footer {
+    text-align: center;
+    background: #7560c7;
+}
+
+.footer .footer-img {
+    max-width: 100%;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: right;
+    margin-right: 140px;
+    margin-top: -125px;
+}
+
+.footer .icons .icons-img {
+    width: 64px;
+    height: 64px;
+}
+
+
