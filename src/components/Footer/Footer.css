@@ -1,21 +1,21 @@
 .footer {
     text-align: center;
     background: #7560c7;
-}
-
-.footer .footer-img {
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
 }
 
 .footer .icons {
     display: flex;
     justify-content: center;
-    margin-top: -118px;
+    gap: 30px;
 }
 
 .footer .icons .icons-img {
-    width: 55px;
-    height: 55px;
+    width: 100%;
 }
 
 
