@@ -1,9 +1,9 @@
 import './Button.css'
 
-const Button = (props) => {
+const Button = ({ text }) => {
     return (
         <button className='button-box'>
-            {props.children}
+            {text}
         </button>
     )
 }

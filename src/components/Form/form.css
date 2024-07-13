@@ -1,14 +1,15 @@
 .form-box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 100%;
-    background: #F19ED2;
+    background-color: #F19ED2;
     color: #fff;
 }
 
 .form-box form {
-    max-width: 90%;
-    background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.31) 0%, rgba(170, 20, 240, 0.00) 100%);
-    border-radius: 20px;
-    padding: 36px 64px;
+    max-width: 80%;
+    background: radial-gradient(50.17% 49.79% at 50% 50%, rgba(90, 2, 132, 0.41) 0%, rgba(189, 57, 250, 0) 100%);
+    padding: 40px 60px;
 }

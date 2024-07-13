@@ -1,26 +1,33 @@
+import hexToRgba from 'hex-to-rgba';
 import Hero from '../Hero'
 import './Team.css'
 
-const Team = (props) => {
-
-    const cssBackgroundColor = { backgroundColor: props.secondColor }
-    const cssBorderColor = { borderColor: props.firstColor }
+const Team = ({ team, heroes, whenDeleting, changeColor, whenFavorite }) => {
 
     return (
-        (props.heroes.length > 0)
+        (heroes.length > 0)
         ? 
-        <section className='team-box' style={cssBackgroundColor}>
-            <h3 style={cssBorderColor}>
-                {props.name}
+        <section className='team-box' style={{backgroundColor: hexToRgba(team.color, '0.6') }}>
+            <input 
+                onChange={event => {changeColor(event.target.value, team.id)}}
+                value={team.color}
+                // value="#ffffff"
+                type='color'
+                className='input-color'
+            />
+            <h3 style={{ borderColor: team.color }}>
+                {team.name}
             </h3>
             <div className='heroes-box'>
-                {props.heroes.map( hero => <Hero
-                    background={props.firstColor}
-                    key={hero.name}
-                    name={hero.name}
-                    dexterity={hero.dexterity}
-                    image={hero.image}
-                />)}
+                {heroes.map((hero, index) =>
+                    <Hero
+                        key={index}
+                        hero={hero}
+                        background={team.color}
+                        whenDeleting={whenDeleting}
+                        whenFavorite={whenFavorite}
+                    />
+                )}
             </div>
         </section>
         : ''

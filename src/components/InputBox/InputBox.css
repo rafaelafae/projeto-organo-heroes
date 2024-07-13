@@ -1,18 +1,18 @@
-.text-box {
+.input-box {
     margin: 24px;
 }
 
-.text-box label {
+.input-box label {
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
 }
 
-.input-box {
+.input-box-input {
     width: 100%;
 }
 
-.text-box input {
+.input-box input {
     color: #1679AB;
     border: 0.811px solid rgba(185, 54, 245, 0.25);
     box-shadow: 0px -9.728px 16.213px 0px rgba(255, 255, 255, 0.03) inset;
@@ -21,4 +21,14 @@
     width: 89%;
     box-sizing: 100%;
     padding: 24px;
+}
+
+.input-box-color input {
+    color: #FFFFFF;
+    border: 0.811px solid rgba(185, 54, 245, 0.25);
+    box-shadow: 0px -9.728px 16.213px 0px rgba(255, 255, 255, 0.03) inset;
+    backdrop-filter: blur(6.079744815826416px);
+    padding: 15px;
+    height: 70px;
+    width: 100%;
 }
